@@ -1,0 +1,91 @@
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.rg-left{
+    flex-basis: 35%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.content{
+    width: 470px;
+}
+.subtitle{
+    font-size:55px;
+    font-weight: bold;
+    color:#fff;
+    margin-top: 20px;
+}
+.details{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.tab-tiles{
+    display: flex;
+    font-size: 18px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.title-item{
+    margin-top: 30px;
+}
+.rg-right{
+    
+    flex-basis: 60%;
+}
+.sign-form{
+    background-color: #fff;
+    width:450px;
+    height:600px;
+    margin-left:250px;
+    margin-bottom: 100px;
+    border-radius:15px ;
+}
+.sign-form h2{
+    font-size: 35px;
+    color:black;
+    margin-left:50px;
+    padding: 20px;
+}
+.text-box{
+    margin-top: 30px;
+    margin-left: 70px;
+    width:310px;
+    height:45px;
+    background-color:#dcdde1;
+    border: none;
+    padding:5px;
+    outline: none;
+    font-size: 16px;
+}
+.text-box::placeholder{
+    text-align: center;
+    font-size: 16px ;
+}
+.btn-signup{
+    margin-top:30px;
+    margin-left:70px;
+    width:310px;
+    height:45px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #192a56;
+    color: #fff;
+    border: 1px solid white;
+}
+.btn-signup:hover{
+    background-color: #487eb0;
+    color:#f5f6fa;
+    cursor: pointer;
+}
+.login{
+    text-decoration:  none;
+    margin-left: 130px;
+}
+.login:hover{
+    color:#c23616;
+}

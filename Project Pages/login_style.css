@@ -1,0 +1,95 @@
+body
+{
+	background-image:url("Images/5559852.jpg");
+	background-repeat:no-repeat;
+	position:relative;
+
+}
+
+#div_1
+{
+	position:inherit;
+	width: 400px;
+	height:530px;
+	margin-left: 36%;
+	padding-top: 100px;
+	font-size: 30px;
+	font-family:  times new roman;
+	opacity: 0.9;
+	border-radius: 20px;
+	background-color:white;
+}
+#eml_usrname
+{
+	margin-left:60px;
+	margin-top:35px;
+	font-size: 20px;
+	background-color:#dcdde1;
+	width:280px;
+	height:45px;
+	border-style: ridge;
+	padding-left:15px;
+	color: #262626;
+	outline: 0px;
+	transition:  0.5s;
+	border:none;
+}
+#txt_passwd
+{
+	margin-left:60px;
+	margin-top:30px;
+	font-size: 20px;
+	background-color:#dcdde1;
+	width:280px;
+	height:45px;	
+	color: #262626;
+	border-style: ridge;
+	padding-left:15px;
+	outline: 0px;
+	transition: 0.5s;
+	border:none;
+}
+::placeholder{
+	text-align: center;
+	color:#262626;
+	font-size: 18px;
+	font-family: 'Times New Roman', Times, serif;
+}
+#btn_submit
+{
+	margin-left:60px;
+	margin-top:10px;
+	font-size: 25px;
+	background-color:#ff6b6b;
+	width:280px;
+	height:45px;	
+	border-style: ridge;
+	color:white;
+	border-width: 0.01cm;
+	outline: 0px;
+}
+#btn_submit:hover
+{
+	background-color:#ED4C67;
+	color:white;
+	cursor: pointer;
+}
+#cna,#fp{
+	font-style:normal; 
+	color:#ED4C67;
+	font-size: 18px; 
+	margin-left: 206px;
+	margin-top: 20px;
+}
+#cna:hover,#fp:hover{
+	color:coral;
+}
+
+.footer{
+    width:100%;
+    height:50px;
+    background-color: black;
+    opacity: 0.7;
+    text-align: center;
+	margin-top: 213px;
+}
